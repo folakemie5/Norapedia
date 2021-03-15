@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>just-try</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+    
+    <div class="dropdown">
+        <button class="dropbtn"><a href="./about.html" class="home">About</a></button>
+    
+          
+            <select class="lang" name="lang-picker-select" id="lang-picker-select"><option lang="eng" value="english" selected>English</option>
+            <option lang="yor" value="yoruba">Yoruba</option>
+            <option lang="igb" value="igbo">Igbo</option>
+            <option lang="hau" value="hausa">Hausa</option>
+            </select>
+        
+
+            
+        <select name="gender-picker-select" id="gender-picker-select">
+        <option class="gend" gender="ml" value="male" selected>Male</option>
+
+        <option class="gend" gender="fml" value="female">Female</option>
+        
+        <option class="gend" gender="oth" value="other">Other</option>
+
+        </select>
+        <span id="datetime"></span>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+    
+
+        </div>
+       
+    <div>
+        <!--logo-->
+        <section>
+        <a href="./" class="logo"><span class="one">N</span><span class="two">o</span><span class="three">ra</span><span class="four">p</span><span class="five">ed</span><span class="six">i</span><span class="seven">a</span></a>
+        
+       
+    
+</div>
+        <!-- The form -->
+        <div id="search-area">
+            <form class="example" action="action_page.php">
+        <input type="text" placeholder="what are you looking for?" class="search-box" name="search">
+        <button type="submit"><i class="fa-fa-search"><a href="https://wikipedia.org"><span>Search</span></a></i></button>
+        </form>
+
+        
+       
+    
+
+    
+</body>
+</html>

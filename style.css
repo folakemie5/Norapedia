@@ -1,0 +1,206 @@
+* {
+    margin-top: 10px;
+    background-color:whitesmoke;
+}
+
+
+
+.logo {
+    font-family: sans-serif;
+    font: 150px solid;
+    margin-left: 350px;
+    margin-right: 200px;
+    padding-top: 150px;
+    text-decoration: none;
+        }
+
+    .one {
+        color: darkmagenta;
+        }
+
+    .two {
+        color: gold;
+        }
+
+    .three {
+        color: green;
+    }
+
+    .four {
+        color: indigo;
+        }
+
+    .five {
+        color: orangered;
+    }
+
+    .six {
+        color: blue;
+    }
+
+    .seven {
+        color:chartreuse;
+    }
+
+    
+    .one:hover {
+        color:chartreuse;
+    }
+
+    .two:hover {
+        color:blue;
+    }
+
+    .three:hover {
+        color: orangered;
+        font-style: italic;
+    }
+
+    .four:hover {
+        color:peru;
+    }
+
+    .five:hover {
+        color: green;
+        font-style: italic;
+    }
+
+    .six:hover {
+        color: gold;
+    }
+
+    .seven:hover {
+        color:darkmagenta;
+    }
+
+
+
+    .home {
+        color: green;
+        font-size: 20px;
+        margin-top: 0px;
+        border: none;
+        
+    }
+
+    .dropbtn {
+        border: none;
+    }
+
+    .dropbtn:active {
+        color: hotpink;
+    }
+
+    .dropbtn:visited {
+        color: teal;
+        border:none;
+    }
+
+    .home:hover {
+        color: rgb(175, 25, 25);
+    }
+
+.dropbtn {
+    border:none;
+    margin-left: 30px;
+}
+   
+
+   
+    .search-box {
+        font-size: 30px;
+        margin-left: 400px;
+        border-radius: 10px;
+        border:2px solid teal;
+    }
+    .search-box:hover {
+        border-radius: 20px;
+        border: 1px dashed indigo;
+        padding: 10px;
+        cursor:pointer;
+        transition: 1s;
+    }
+
+    .fa-fa-search {
+        font-family: sans-serif;
+    } 
+
+    
+    .fa-fa-search:hover {
+        background-color:wheat;
+        color: green;
+        transition: .8s;
+        
+    }
+
+    button {
+        font-size: 25px;
+        border: 5px solid pink;
+        border-radius: 6px;
+        padding-bottom: 10px;
+    }
+ 
+    button .fa-fa-search span {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     transition: 0.5s;
+   }
+   
+   button .fa-fa-search span:after {
+     content: '\00bb';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -20px;
+     transition: 0.5s;
+   }
+   
+   button .fa-fa-search:hover span {
+     padding-right: 25px;
+     color: green;
+   }
+   
+   button .fa-fa-search:hover span:after {
+     opacity: 1;
+     right: 0;
+   }
+
+
+   #search-area > .example{
+       margin-top: 200px;
+       font-size: 80px;
+   } 
+
+
+   #lang-picker-select {
+    color: indigo;
+    border-radius: 6px;
+    margin-left: 20px;
+    padding: 5px;
+    cursor: pointer;
+   }
+
+   select .lang {
+    font-size: 18px;
+    color: indigo;
+   }
+
+   #gender-picker-select {
+       color: indigo;
+       border-radius: 6px;
+       margin-left: 20px;
+       padding: 5px;
+       cursor: pointer;
+   }
+
+   select option .gend {
+       font-size: 18px;
+       color: indigo;
+   }
+
+   #datetime {
+       font-size: 20px;
+       margin-left: 700px;
+       color: indigo;
+   }

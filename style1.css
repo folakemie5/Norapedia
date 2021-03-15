@@ -1,0 +1,65 @@
+* {
+    background-color: whitesmoke;
+}
+p {
+    color:indigo;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+p:hover {
+    color: green;
+    font-size: 30px;
+    transition: 1s;
+}
+
+button {
+    margin-top: 40px;
+    padding: 5px;
+    border-color: blueviolet;
+    border-radius: 6px;
+    margin-left: 100px;
+
+}
+
+button a {
+    color: magenta;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button a:hover {
+    color:red;
+}
+
+button:hover {
+    border-color: darkgoldenrod;
+    transition: .5s;
+} 
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+    color: green;
+  }
+  
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
